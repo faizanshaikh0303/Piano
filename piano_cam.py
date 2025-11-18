@@ -86,7 +86,7 @@ while True:
         if not current_pressed[i]:
             pressed[i] = False
 
-    cv2.imshow("🎵 Five-Finger Piano", frame)
+    cv2.imshow("Five-Finger Piano", frame)
 
     if cv2.waitKey(1) & 0xFF == 27:  # ESC key
         break
